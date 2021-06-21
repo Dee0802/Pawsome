@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link href="https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Volkhov:wght@700&display=swap" rel="stylesheet">
+   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC&family=Cookie&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1" >
+<title>Pawsome</title>
+<style>
+body,
+html {
+   height: 100%;
+   margin: 0;
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+* {
+   box-sizing: border-box;
+}
+h1 {
+    font-family: 'Cookie', cursive;
+   font-size: 120px;
+   font-weight:800;
+   width:500px;
+   background: linear-gradient(to right,#ebde71 5%, #eff14e 15%, #f8e328fb  30%, #ebd621 50%, #ffbb00 65%);
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+    
+   
+}
+.heroContainer {
+   background-image: 
+   url("finalhero.jpg");
+   height: 90%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+.heroCaption {
+   text-align: left;
+   position: absolute;
+  font-size: 10px;
+  top: -16%;
+   left: 0.7%;
+
+}
+ h2{
+   font-weight:bold;
+   font-size: 20px;
+   letter-spacing: 0.7mm;
+}
+.container{
+   position: relative;
+  /* left:50%; top:50%;*/
+   transform: translate(-50,-50);
+   text-align:center;
+}
+.btn{
+   border: none;
+   margin:0.5mm;padding:10px;width:200px;margin-top: 0.1mm;
+   font-family: 'Abril Fatface', cursive;
+   letter-spacing: 1mm;
+   text-transform: uppercase;
+   border-radius: 8px;
+   cursor: pointer; color:rgb(255, 255, 255);
+   background-size: 200%;
+   transition: 0.7s;
+   }
+
+.btnbg{
+   background-image: linear-gradient( to right,rgb(251, 251, 82),rgb(255, 255, 75),rgb(255, 255, 8), rgb(255, 230, 0),rgba(235, 153, 85, 0.705), rgba(143, 87, 24, 0.644),#865840, #dd9771);
+   font-size: 15px;
+}
+
+.btn:hover{
+   background-position: right;
+}
+.flex-container{
+  margin-left:120px; display: flex;flex-direction: row;width:1000px; height: 30px;margin-top: -17px;
+   background-color: transparent;/*flex-wrap: nowrap;*/
+}
+.flex-item{  background-color: transparent;
+  width: relative;
+  margin: 1mm;margin-top: 0.1mm;
+  text-align: center;
+  padding:1px;
+  line-height: 75px;
+  font-size: 30px;}
+
+.page{
+  /* width:1320px;
+   padding: 50px;
+   left: 5mm;
+   right:10mm;
+   border: 5px;*/
+   margin:0 auto; 
+   width:1000px
+}
+hr.new {
+      background-color: yellow;
+      height: 1.5px;
+      border: none;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+    width: 50%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+
+  }
+}
+div.ani{
+   animation:slidein 4s;
+   animation-iteration-count: infinite;
+}
+.end{
+   background-color: rgb(170, 120, 96);
+   width: fill;
+   height: 100px;;
+}
+</style>
+
+</head>
+
+
+<body>
+   
+<div class="heroContainer">
+<div class="heroCaption">
+<h1>Paws<i class='fas fa-paw' style='font-size:85px;'></i></i>me</h1>
+</div>
+<h2 style="font-family: 'Amatic SC', cursive; color:#e7ce3c ;opacity:80%;padding-left: 24px; padding-top:7%;"><b>-nurturing and embracing the four legged lives-</b></h2>
+</div>
+<div id="home">
+<div class="flex-container">
+   <div class="flex-item"><div class="container"><button class="btn btnbg"><a href="#home" style="font-family: 'Abril Fatface', cursive;
+      letter-spacing: 1mm;
+      text-transform: uppercase;
+      border-radius: 8px;
+      cursor: pointer; color:rgb(255, 255, 255);" >home</a></home></button></div></div>
+   <div class="flex-item"><div class="container"><button class="btn btnbg"><a href="#About us" style="font-family: 'Abril Fatface', cursive;
+      letter-spacing: 1mm;
+      text-transform: uppercase;
+      border-radius: 8px;
+      cursor: pointer; color:rgb(255, 255, 255);">about us</a></button></div></div>
+  <div class="flex-item"><div class="container"><button class="btn btnbg"><a href="#nutrition"  style="font-family: 'Abril Fatface', cursive;
+   letter-spacing: 1mm;
+   text-transform: uppercase;
+   border-radius: 8px;
+   cursor: pointer; color:rgb(255, 255, 255);">nutrition</a></button></div></div>
+   <div class="flex-item"><div class="container"><button class="btn btnbg"><a href="#Grooming" style="font-family: 'Abril Fatface', cursive;
+      letter-spacing: 1mm;
+      text-transform: uppercase;
+      border-radius: 8px;
+      cursor: pointer; color:rgb(255, 255, 255);">grooming</a></button></div></div> 
+   <div class="flex-item"><div class="container"><button class="btn btnbg"><a href="contactus.html" style="font-family: 'Abril Fatface', cursive;
+      letter-spacing: 1mm;
+      text-transform: uppercase;
+      border-radius: 8px;
+      cursor: pointer; color:rgb(255, 255, 255);">contact us</a></button></div></div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="div ani"><div style="font-size: 60px;color:rgb(158, 101, 72); padding-left: 20px;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><span>&#10077;</span>FEED LOVE!<span>&#10078;</span></div>
+</div></div>
+<p style="color:rgb(158, 100, 71) ;padding: 5mm;font-size:23px;margin: 20px;">
+   <IMG SRC="home.jpg" width="400" height="390" style="float:right; padding:7mm;padding-top:1.5mm;">  
+<b>Y</b>ou,ve arived at a right destination for your pawly pups.We represent the vice of doggies.Our club works on services dedicated to these adorable beings.We also work on campaigns for dog safety and educating owners and communities,  vaccinating against rabies, sterilisation. 
+We also focus on campaigning about dogs, its protection.The campagins are also about positive sides of owning one and highlighting how a dog could embrace your lives. adoptions of homeless dogs and provide them a family.
+<br><br>Our main motto is to ensure quality and safety to these beings.Together, we can furnish a better world for dogs.
+</p>
+</div>
+<hr class="new">
+<div class="page">
+
+
+ <br><br><br><br><br>
+  
+  
+ <div id="About us">
+ <span style="font-family: 'Volkhov', serif;font-size:15mm;color:rgb(251, 255, 5);">About us</span>
+
+ <IMG SRC="aboutus.jpg" style="float:left; padding:7mm;">
+ <p style="color: rgb(170, 120, 96);font-size: 4.9mm;">
+ There truly isn’t anything more fascinating in the world other than being the parent of a pet and we completely understand this fascination because we happen to love pets too. Adoption is something that we highly encourage, because we ourselves have adopted pets in the past.  We emphasize on extending love to the lives which do not have homes and give a best companion to the owner could have. 
+ In a short period of time, our company has achieved a tremendous amount of acclaim and people have come to acknowledge the fact that due to our affection for pets, we provide the best quality services.
+<br><br>
+Whether it’s a pamper day, playdate, sleepover, training class or veterinary visit, we provide the best in pet services with highly trained, passionate associates. From our pet hotel & doggie day camp as an alternative to pet sitting, to our dog training and grooming as an alternative to DIY. Every owner would like to have customized and quality services for their extended family of paws.One may not be sure for taking the services from a unknown company.
+This gave rise to the formation of our website with the only mission being, to provide top-notch pet services and facilities over a wide range of choices and a premium pet accessories for your beloved pawly pets with best quality
+</p>
+<BR CLEAR=”left” />
+</div>
+<br><br><br>
+<hr class="new">
+ <br><br><br><br><br><br><br>
+
+
+
+
+ <div id="Grooming">
+ <span style="font-family: 'Volkhov', serif;font-size:15mm;color:rgb(251, 255, 5);">
+   <span>&#9986;</span> Grooming</span>
+   <IMG SRC="grooming.jpg" width="400" height="500" style="float:left; padding:7mm;">
+     <br>
+      <p  style="color: rgb(170, 120, 96);font-size: 4.9mm;"> <b>The grooming destination that puts your pet's health first.</b><br><br>
+      Customize your pet’s visit with grooming solutions to keep them feeling great.
+      Regular grooming is essential to your pet's health as it helps prevent skin issues such as matting.
+     Upgrade their visit with packages designed to target specific needs such as de-shedding, dry and sensitive skin care and more.<br>Help care for your pet with essential services such as nail care, teeth-brushing and gland expressions.Grooming that works for your busy lifestyle, including easy scheduling, self-service stations and curbside drop-off.We’ll send your pet home with a full report detailing services provided and after-care recommendations for keeping them healthy until we see them at your next grooming appointment.
+      <br>The best services from verified, affordable and reliable groomers from across your area. You can find exclusive deals and guaranteed lowest prices for dog grooming services at your home or at a pet spa nearby. Our partners use high-quality shampoos and conditioners to make sure your pup leaves looking ready for the red carpet! To create a booking simply purchase the service on the pawsome website and present the emailed voucher to the vendor to claim your discount. Our dedicated call center is always there to assist you with anything you need!</p><br><br><br><br><br>
+ </div>
+ <br>
+ <hr class="new">
+ 
+
+ <br><br><br><br><br><br><br>
+
+ <div id="nutrition">
+      <span style="font-family: 'Volkhov', serif;font-size:15mm;color:rgb(251, 255, 5);">Nutrition</span>
+      <IMG SRC="nutrition.jpg"  width="450" height="550" style="float:right; padding:7mm;">
+         <p style="color: rgb(170, 120, 96);font-size: 4.9mm;">
+      A nutritious, balanced diet is essential to keeping your dog healthy. Learn what you should be feeding your dog at every stage of its life.You might also see "Meets the nutritional requirements of dogs established by the American Association of Feed Control Officials (AAFCO)" or "Complete and balanced nutrition for dogs based on AAFCO feeding trials."
+<br><br>
+      Both dry and canned dog food will give your dog good nutrition. Some experts prefer dry food because it may help keep teeth and gums healthy.
+      If you make your own dog food, use recipes created by nutritionists to be "complete and balanced."Experts agree that treats and table scraps should never be more than 10% of your dog's daily calories. Just like with people, overeating can make your dog overweight. And that can lead to the same kinds of health problems that people have, such as diabetes and heart disease.<br><br><i>Subscribe for more tips for your furry friends!</i>
+      <br>
+
+      
+      <input type="email" name="email" value="email" size="30" style="height:30px;font-size:14pt;border-color: rgb(199, 163, 148);" >
+      <button type="button" name="sub"  style=" height:30px;background-color: rgba(170, 120,96); width:100px; border-radius: 2mm;">Subscribe</button>
+   </p>
+</div>
+</div>
+     </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="end" style="text-align: center;padding-top: 14px; color:white;font-family: 'Advent Pro', sans-serif;font-weight: 500;font-size: 35px;">
+   <span style="font-size: 15mm;font-weight: 300;">&#169;</span> 2014 PAWSOME
+</div>
+
+</body>
+</html>
